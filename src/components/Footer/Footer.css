@@ -1,0 +1,100 @@
+.footer{
+     height: 131.18px;
+     text-align: center;
+     padding-top: 20px;
+     border-top: solid 1px #ccc;
+}
+
+.footer .footer-content {
+
+     display: grid;
+     color: #969696;
+     font-size: 13px;
+}
+.footer .copyright{
+     color: #757474;
+     font-weight: 500;
+     font-size: 13.5px;
+}
+@media screen and (max-width: 768px) {
+     .footer {
+          display: flex;
+          justify-content: center;
+          height: 150px;
+     }
+     .footer .footer-content{
+          width: 650px;
+          text-align: center;
+          display: block;
+     }
+     .footer .copyright{
+          text-align: center !important;
+     }
+}
+@media screen and (max-width: 768px) {
+     .footer {
+          display: flex;
+          justify-content: center;
+          height: 150px;
+     }
+     .footer .footer-content{
+          width: 650px;
+          text-align: center;
+          display: block;
+     }
+     .footer .copyright{
+          text-align: center !important;
+     }
+}
+@media screen and (max-width: 430px) {
+     .footer {
+          display: flex;
+          justify-content: center;
+          height: 220px;
+     }
+     .footer .footer-content{
+          width: 320px;
+          text-align: justify;
+          display: block;
+     }
+     .footer .footer-content .line{
+          line-height: 20px;
+     }
+     .footer .copyright{
+          text-align: center;
+     }
+}
+@media screen and (max-width: 355px) {
+     .footer {
+          display: flex;
+          font-size: 9px;
+          justify-content: center;
+          height: 230px;
+     }
+     .footer .footer-content{
+          width: 300px;
+          text-align: justify;
+          display: block;
+     }
+     .footer .footer-content .line{
+          line-height: 20px;
+     }
+     .footer .copyright{
+          text-align: center;
+     }
+}
+@media screen and (max-width: 320px) {
+     .footer {
+          display: flex;
+          
+          justify-content: center;
+          height: 230px;
+     }
+     .footer .footer-content{
+          width: 250px;
+          font-size: 11px;
+          text-align:justify;
+          display: block;
+     }
+
+}

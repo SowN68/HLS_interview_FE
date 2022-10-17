@@ -1,13 +1,12 @@
-import {Fragment} from "react";
 import Navigation from "./Navigation";
 import Description from "./Description";
 
 const Header = () => {
      return (
-          <Fragment>
+          <div className="header">
                <Navigation />
                <Description/>
-          </Fragment>
+          </div>
 )     
 }
 export default Header;

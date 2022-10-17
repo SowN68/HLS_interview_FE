@@ -3,4 +3,35 @@
      color: #fff;
      padding: 55px 0;
      text-align: center;
+     box-shadow: inset 0 5px 5px #19984E;
+}
+@media screen and (max-width: 380px) {
+     .descriptionBox h1{
+          font-size: 25px;
+     }
+     .descriptionBox p{
+          font-size: 14px;
+     }
+}
+@media screen and (max-width: 355px) {
+     .descriptionBox{
+          height: 80px;
+     }
+     .descriptionBox h1{
+          font-size: 18px;
+     }
+     .descriptionBox p{
+          font-size: 11px;
+     }
+}
+@media screen and (max-width: 320px) {
+     .descriptionBox{
+          height: 80px;
+     }
+     .descriptionBox h1{
+          font-size: 15px;
+     }
+     .descriptionBox p{
+          font-size: 10px;
+     }
 }

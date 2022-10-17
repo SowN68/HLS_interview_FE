@@ -1,0 +1,83 @@
+.joke-item{
+     
+     list-style: none;
+     width: 810px;
+}
+.joke-item .content{
+     height: 108px;
+     font-size: 16.5px;
+     color: #696969;
+     margin-bottom: 41.5px;
+}
+.joke-item .message{
+     font-size: 20px;
+}
+.joke-item hr{
+     background-color: #eee;
+     width: 642.5px;
+     height:1px;
+     border: none;
+}
+@media screen and (max-width: 768px) {
+     .joke-item {
+          width: 500px;
+
+     }
+     .joke-item .content{
+          height: 150px;
+     }
+     .joke-item hr{
+         display: none;
+     }
+}
+@media screen and (max-width: 426px) {
+     .joke-item {
+          width: 350px;
+
+     }
+     .joke-item .content{
+          font-size: 13px;
+          text-align: justify;
+          height: 150px;
+     }
+     .joke-item .content p{
+          line-height: 20px;
+     }
+     .joke-item hr{
+         display: none;
+     }
+}
+@media screen and (max-width: 355px) {
+     .joke-item {
+          width: 300px;
+
+     }
+     .joke-item .content{
+          font-size: 13px;
+          text-align: justify;
+          height: 150px;
+     }
+     .joke-item .content p{
+          line-height: 20px;
+     }
+     .joke-item hr{
+         display: none;
+     }
+}
+@media screen and (max-width: 320px) {
+     .joke-item {
+          width: 250px;
+
+     }
+     .joke-item .content{
+          font-size: 13px;
+          text-align: justify;
+          height: 200px;
+     }
+     .joke-item .content p{
+          line-height: 20px;
+     }
+     .joke-item hr{
+         display: none;
+     }
+}

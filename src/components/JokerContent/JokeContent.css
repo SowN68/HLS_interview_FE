@@ -1,0 +1,18 @@
+.jokeContent {
+     height: 264.57px;
+     background-color: #FCFCFC;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 30px 0;
+}
+
+.jokeContent ul {
+     list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+     .jokeContent {
+          height: 300px;
+     }
+}
