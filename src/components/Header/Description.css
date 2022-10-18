@@ -3,7 +3,7 @@
      color: #fff;
      padding: 55px 0;
      text-align: center;
-     box-shadow: inset 0 5px 5px #19984E;
+     margin-top: 95px;
 }
 @media screen and (max-width: 380px) {
      .descriptionBox h1{

@@ -1,6 +1,7 @@
 import  "./Navigation.css"
 import logo from "../../asset/Logo.png"
 import accountImg from "../../asset/accountImg.png"
+
 const Navigation = () => {
      return (
           <div className='navigation'>

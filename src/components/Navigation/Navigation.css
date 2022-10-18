@@ -1,11 +1,18 @@
 .navigation{
-     height: auto;
+     position: absolute;
+     top: 0;
+     left: 15px;
+     right: 0;
+     width: 80%;
+     background-color: #fff;
+     height: 95px;
      display: flex;
      align-items: center;
      justify-content: space-between;
      padding-left: 189px;
      padding-right: 162.5px;
-
+     box-shadow: 0px 2px 3px #677a70;
+     z-index: 1;
 }
 
 .account{
@@ -39,6 +46,7 @@
 }
 @media screen and (max-width: 430px){
      .navigation{
+          width: 100%;
           padding: 0;
      }
      .navigation .logo img{

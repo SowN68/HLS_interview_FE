@@ -1,10 +1,9 @@
-import Navigation from "./Navigation";
-import Description from "./Description";
 
+import Description from "./Description";
+import "./Header.css";
 const Header = () => {
      return (
           <div className="header">
-               <Navigation />
                <Description/>
           </div>
 )     
