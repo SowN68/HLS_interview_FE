@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css"
-import Navigation from "./components/Header/Navigation";
+import Navigation from "./components/Navigation/Navigation";
 import Header from "./components/Header/Header";
 import JokeContent from "./components/JokerContent/JokeContent";
 import Footer from "./components/Footer/Footer";
